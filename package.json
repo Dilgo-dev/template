@@ -1,0 +1,16 @@
+{
+    "name": "wildwitch",
+    "version": "1.0.0",
+    "main": "index.js",
+    "scripts": {
+        "dev": "concurrently \"cd client && npm run dev\" \"cd server && npm run dev\"",
+        "init": "npm i && cd client && npm i && cd ../server && npm i && cp .env.sample .env"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "description": "",
+    "devDependencies": {
+        "concurrently": "^8.2.2"
+    }
+}
